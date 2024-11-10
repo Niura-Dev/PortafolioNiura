@@ -7,10 +7,14 @@ Soy Ñiura, una desarrolladora frontend apasionada por crear experiencias web in
 
 Con experiencia en HTML, CSS y JavaScript, he desarrollado proyectos como:
 
-NaturalPet App: Una aplicación de seguimiento para mascotas que prioriza la experiencia del usuario.br
+NaturalPet App: Una aplicación de seguimiento para mascotas que prioriza la experiencia del usuario.
+
 Dulce Tentación: Una tienda online para una pastelería, diseñada para una navegación intuitiva y atractiva.
+
 Alas App: Una aplicación responsive para la alfabetización de adultos, con un diseño accesible y fácil de usar.
+
 Encriptador de texto: Un proyecto que demuestra mi habilidad para crear interfaces interactivas y funcionales.
+
 Mi portafolio frontend y UX: Un espacio donde muestro mi pasión por el diseño web y la experiencia del usuario.
 
 Estoy buscando oportunidades para trabajar como desarrolladora frontend y contribuir a proyectos que me permitan seguir aprendiendo y creciendo en este campo.
