@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Portafolio Ñiura Gutiérrez</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Ñiura
+        <span>Gutiérrez</span></a>
+        
+        <i class='bx bx-menu-alt-right' id="menu__icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Principal</a>
+            <a href="#education" class="active">Educación</a>
+            <a href="#projects" class="active">Proyectos</a>
+            <a href="#contact" class="active">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home__content">
+            <h1>Hola, soy <span>Ñiura</span></h1>
+            <h3 class="text__animation">Soy una <span></span></h3>
+            <p>Me gusta diseñar experiencias digitales significativas. Combino mi conocimiento en Ux con habilidades de desarrollo frontend para crear productos excepcionales.</p>
+
+            <div class="social__icons">
+                <a href="https://www.linkedin.com/in/%C3%B1iura-guti%C3%A9rrez/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.behance.net/iuragutirrez" target="_blank"><i class='bx bxl-behance'></i></a>
+            </div>
+
+            <div class="btn__group">
+                <a href="Cv.html#cv" class="btn">Curriculum</a>
+                <a href="#contact" class="btn">Contacto</a>
+            </div>
+        </div>
+            <div class="home__img">
+                <img src="/Images/ÑiuraG..jpg
+                " alt="">
+            </div>
+        
+
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Educación</h2>
+
+        <div class="timeline__items">
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                    <div class="timeline__date">2024</div>
+                    <div class="timeline__content">
+                        <h3>Desarrolladora Frontend</h3>
+                        <p>Alura One</p>
+                    </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                    <div class="timeline__date">2023</div>
+                    <div class="timeline__content">
+                        <h3>Diseñadora UX</h3>
+                        <p>Google-Coursera</p>
+                    </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                    <div class="timeline__date">1999</div>
+                    <div class="timeline__content">
+                        <h3>Arquitecta</h3>
+                        <p>Universidad Michoacana de San Nicolás de Hidalgo</p>
+                    </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects__box">
+            <h2 class="heading">Proyectos</h2>
+
+            <div class="wrapper">
+                <div class="project__item">
+                    <img src="/Images/NaturalPet.jpg" alt="Imagen de app NaturalPet">
+                    <h2>NaturalPet</h2>
+                    <p>NaturalPet en una aplicación móvil para seguimiento de pedidos de alimento orgánico para mascotas que busca brindar a los usuarios una experiencia de compra online más transparente y confiable, ofreciendo seguimiento en tiempo real de sus pedidos. </p>
+                </div>
+
+                <div class="project__item">
+                    <img src="/Images/DulceT.jpg" alt="Imagen de Dulce Tentación">
+                    <h2>Dulce Tentación</h2>
+                    <p>Es una aplicación web que ofrece una experiencia de compra en línea sencilla y rápida. Te permite seleccionar y personalizar tu pastel con facilidad, y nuestro sistema de pago seguro garantiza una transacción sin preocupaciones.</p>
+                </div>
+
+                <div class="project__item">
+                    <img src="/Images/Alas.jpg" alt="Imagen de Dulce Tentación">
+                    <h2>Alas</h2>
+                    <p>Es una app gratuita para alfabelizar adultos. Con lecciones personalizadas, ejercicios interactivos y una comunidad de apoyo.</p>
+                </div>
+
+                <div class="project__item">
+                <img src="/Images/Encriptador.jpg" alt="Imagen de app NaturalPet">
+                <h2>Encriptador de texto</h2>
+                <p>Esta aplicación web, desarrollada con HTML, CSS Y Java Script, permite encriptar y desencriptar textos utilizando un método de sustitución de vocales.vil para seguimiento de pedidos de alimento orgánico para mascotas que busca brindar a los usuarios una experiencia de compra online más transparente y confiable, ofreciendo seguimiento en tiempo real de sus pedidos. </p>
+            </div>
+
+            <div class="project__item">
+                <img src="/Images/PortafolioÑ.jpg" alt="Imagen de app NaturalPet">
+                <h2>Portafolio</h2>
+                <p>Este portafolio lo he creado específicamente para mostrar mis proyectos en estas áreas, combinando un diseño atractivo con una funcionalidad efectiva. </p>
+            </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contáctame</h2>
+
+    <form action="">
+        <div class="input__group">
+            <div class="input__box">
+                <input type="text" placeholder="Nombre" id="nombre">
+                <input type="email"
+                placeholder="Email" id="email">
+                <input type="text"
+                placeholder="Asunto" id="asunto">
+            </div>
+
+        </div>
+        <div class="input__group-2">
+            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+            <input type="submit" value="Enviar" class="btn" id="enviar" disabled>
+        </div>
+    </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-behance'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home">Principal</a>
+            </li>
+
+            <li>
+                <a href="#education">Educación</a>
+            </li>
+
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Ñiura Gutiérrez | 2014
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
